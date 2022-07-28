@@ -1,0 +1,19 @@
+<div class="main-container">
+<section>
+    <div class="col-lg-2">
+      <div class="side-menu-list">
+      <ul class="menu-items">
+       <li> <a  [routerLink]="['/employee']" routerLinkActive="router-link-active" >Employee list</a> </li>
+
+        <li><a  [routerLink]="['/add']" routerLinkActive="router-link-active" >New employee</a> </li>
+      </ul>
+      </div>
+    </div>
+</section>
+
+<div class="router">
+<router-outlet></router-outlet>
+</div>
+</div>
+
+

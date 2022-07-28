@@ -1,0 +1,35 @@
+.row1{
+    padding: 20px;
+    margin-top: 80px;
+    }
+      input {
+      border: none;
+      border-bottom: 2px solid rgba(15, 110, 234, 0.749);
+      margin: 8px 0;
+      display: inline-block;
+      box-sizing: border-box;
+      width: 100%;
+      }
+    
+     
+    button {
+      background-color: rgba(15, 110, 234, 0.749);
+      padding: 10px 20px;
+      border: none;
+      color: white;
+      margin-left: 100px;
+    }
+    button:hover {
+        background-color: white;
+        color: rgba(15, 110, 234, 0.749);
+    }
+    
+    
+    @media screen and (max-width: 800px) {
+    
+        .row1{
+            padding: 20px;
+            margin-left: 20px;
+            margin-top: 50px;
+            }
+    }

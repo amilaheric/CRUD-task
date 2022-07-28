@@ -1,0 +1,26 @@
+<div id="content" >
+    <h2>Employee list</h2>
+    <app-editemployee></app-editemployee>
+    <div class="card" *ngFor="let emp of employees;let i = index">
+     <div class="container">
+        <ul>
+          <li>First name: {{ emp.firstName }}</li>  
+          <li>Last name:  {{ emp.lastName }}</li>
+          <li>Address:  {{ emp.address }}</li> 
+          <li>City:  {{ emp.city }}</li> 
+          <li>Country:  {{ emp.country }}</li> 
+          <li>Birth date:  {{ emp.birthDate }}</li> 
+          <li>Postal code:  {{ emp.postalCode }}</li> 
+          <li>Phone number:  {{ emp.phoneNumber }}</li> 
+        </ul>
+           
+          
+        <a class="buttondelete" (click)="delete(emp)" >Delete</a> 
+        <a class="buttonedit"   (click)="onedit(i) " >Edit</a> 
+
+        </div>
+
+      </div>
+    
+    </div> 
+
